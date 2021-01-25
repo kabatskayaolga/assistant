@@ -65,13 +65,13 @@
 
         
         .section.assistant-banner {
-            background-image: url(./assistant/assistant-banner.svg),
+            background-image: url(./assistant/assistant-banner1.svg),
                 url(../images/home-slider-back.svg);
-            background-position: 35.90909% top, -525px center;
+            background-position: 47.5% 31px, -525px center;
             max-height: 410px;
             background-color: #fff;
             height: initial;
-            background-size: contain;
+            background-size: 581px;
         }
        
         .section.assistant-banner .text-block {
@@ -137,6 +137,7 @@
 
         .seo-short .seminars-filter_name {
             margin-bottom: -0.5rem;
+            margin-top: 0rem;
             text-transform: uppercase
         }
 
@@ -178,12 +179,12 @@
 
         @media (min-width: 1024px) and (max-width: 1366px) {
             .section.assistant-banner {
-                background-image: url(./assistant/assistant-banner.svg), url(../images/home-slider-back.svg);
-                background-position: 21.90909% center, -650px center;
+                background-image: url(./assistant/assistant-banner1.svg), url(../images/home-slider-back.svg);
+                background-position: 45.8% 45px, -650px center;
                 max-height: initial;
                 background-color: #fff;
                 height: initial;
-                background-size: 60%, contain;
+                background-size: 533px, contain;
             }
 
             .section.assistant-banner .banner-list {
@@ -200,8 +201,8 @@
 
         @media (min-width: 1268px) and (max-width: 1366px) {
             .section.assistant-banner {
-                background-position: 33.90909% center, -550px center;
-                background-size: 52%, contain;
+                background-position: 46% center, -550px center;
+                background-size: 576px, contain;
             }
 
             .section.assistant-banner .banner-list {
@@ -210,7 +211,7 @@
         }
         @media (min-width: 1611px){
             .section.assistant-banner{
-                background-position: 37.90909% top, -525px center;
+                background-position: 47% 33px, -525px center;
             }
         }
         @media (max-width: 639px){
@@ -218,9 +219,10 @@
                 max-height: initial;
                 padding: 1rem;
                 padding-top: 55%;
-                background-position: -40px top;
+                background-position: center top;
                 background-repeat: no-repeat;
                 display: block;
+                background-size: 90%
                 
             }
             .section.assistant-banner .text-right,
@@ -267,9 +269,9 @@
             text-align: center;
             
         }
-        .seo-short .h1{
+        /* .seo-short .h1{
             margin-top: 1rem
-        }
+        } */
         .additional-menu {
             padding: 15px 0;
         }
@@ -333,9 +335,16 @@
             padding-right: .85227rem;
             margin: 0.5rem;
             border: none;
-            background-color: #F9F9F9
+            background-color: #F9F9F9;
+            position: relative;
+            padding-bottom: 110px
         }
-
+        .assistant-filter-results .seminar > div:last-child{
+            position: absolute;
+            bottom: 0;
+            left: .85227rem;
+            right: .85227rem;
+        }
         @media screen and (min-width: 40em) {
             .assistant-filter-results .seminar {
                 width: 45%;
@@ -433,7 +442,7 @@
 
         .photoalbum ul,
         .service ul {
-            padding-left: 20px;
+            padding-left: 0px;
         }
 
         .photoalbum ul li,
@@ -565,7 +574,10 @@
         }
         .section.lecture .h1{
             text-align: left;
-            margin-top: 0
+            margin-top: -1rem;
+            font-weight: 600;
+            font-size: 2.5rem;
+        
         }
         .section.lecture img{
             margin-bottom: 1rem;
@@ -902,11 +914,7 @@
     </div>
     <div class="section seo-short">
         <div class="row column">
-            <p>Сео текст</p>
-            <a class="button" data-reveal-id="order_consult_modal" data-open="order_consult_modal"
-                data-text-form="Получите консультацию" data-textarea-form="Ваш вопрос"
-                data-textarea-form-placeholder="(Ваши комментарии, пожелания к программе, целевая аудитория, количество участников и тд.)">Узнать
-                подробнее</a>
+           
             <p class="h1 seminars-filter_name">Все курсы бизнес-школы</p>
         </div>
     </div>
@@ -1559,7 +1567,7 @@
                             </div>
                         </div>
                     </div>
-                    <p>Очные занятия для секретарей и ассистентов в центре Москвы на м.Пролетарская.
+                    <p><strong>Очные занятия для секретарей и ассистентов</strong> в центре Москвы на м.Пролетарская.
                         Расписание на сайте</p>
                     <ul>
                         <li>Кейсовые и ролевые форматы</li>
@@ -1582,7 +1590,7 @@
                             </div>
                         </div>
                     </div>
-                    <p>Очные занятия для групп секретарей и ассистентов одной организации. Программа адаптируется под
+                    <p><strong>Очные занятия для групп секретарей и ассистентов</strong> одной организации. Программа адаптируется под
                         Ваши задачи</p>
                     <ul>
                         <li>Ваша программа обучения составляется под Вас</li>
@@ -1604,7 +1612,7 @@
                             </div>
                         </div>
                     </div>
-                    <p>Онлайн-обучение без привязки к группе и времени</p>
+                    <p><strong>Онлайн-обучение</strong> без привязки к группе и времени</p>
                     <ul>
                         <li>Логичные тематические модули</li>
                         <li>Доступ через персональный личный кабинет</li>
