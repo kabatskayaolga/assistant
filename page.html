@@ -1,0 +1,1506 @@
+<!-- Добавила стили -->
+<style>
+.section.assistant-banner {
+    background-image: url(./assistant/assistant-banner.svg),
+        url(../images/home-slider-back.svg);
+    background-position: 47.5% 31px, -525px center;
+    max-height: 410px;
+    background-color: #fff;
+    height: initial;
+    background-size: 581px;
+}
+
+.section.assistant-banner .text-block {
+    padding: 0.5rem 0 0;
+}
+
+.section.assistant-banner .h1,
+.section.assistant-banner .h2,
+.section.assistant-banner p,
+.section.assistant-banner .h3 {
+    color: #000;
+    text-transform: none;
+}
+
+.section.assistant-banner .h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.section.assistant-banner .name {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5rem
+}
+
+.section.assistant-banner .text-right {
+    text-align: right
+}
+
+.section.assistant-banner .banner-list {
+    background-color: #01414a;
+    background-image: url('https://seminarna.ru/assets/img/bannerr.jpg');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 40px;
+    margin-right: -5rem;
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+
+.section.assistant-banner .documents-wrapper {
+    position: relative;
+}
+
+.section.assistant-banner .documents-open {
+    position: absolute;
+    right: -20px;
+    /* top: -20px; */
+}
+
+.section.assistant-banner .documents-open img {
+    width: 130px;
+}
+
+
+.seo-short .seminars-filter_name {
+    margin-bottom: -0.5rem;
+    margin-top: 0rem;
+    text-transform: uppercase
+}
+
+@media (min-width: 640px) and (max-width: 900px) {
+
+    .section.assistant-banner .documents-open img {
+        width: 89px;
+    }
+
+
+}
+
+@media (min-width: 640px) and (max-width: 681px) {
+    .section.assistant-banner {
+        background-image: url(../images/home-slider-back.svg);
+        background-position: -525px center;
+        max-height: 465px;
+        background-color: #fff;
+        height: initial;
+        background-size: 268px;
+    }
+}
+
+
+@media (min-width: 682px) and (max-width: 1023px) {
+    .section.assistant-banner {
+        background-image: url(../images/home-slider-back.svg);
+        background-position: -525px center;
+        max-height: 415px;
+        background-color: #fff;
+        height: initial;
+        /* background-size: 268px; */
+    }
+
+    .section.assistant-banner .documents-open img {
+        left: 75%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .section.assistant-banner {
+        background-image: url(./assistant/assistant-banner.svg), url(../images/home-slider-back.svg);
+        background-position: 45.8% 45px, -650px center;
+        max-height: initial;
+        background-color: #fff;
+        height: initial;
+        background-size: 533px, contain;
+    }
+
+    .section.assistant-banner .banner-list {
+        margin-right: -1rem;
+        list-style-image: url(../images/check.png);
+    }
+
+    .section.assistant-banner .documents-open img {
+        width: 96px;
+    }
+
+
+}
+
+@media (min-width: 1268px) and (max-width: 1366px) {
+    .section.assistant-banner {
+        background-position: 46% center, -550px center;
+        background-size: 576px, contain;
+    }
+
+    .section.assistant-banner .banner-list {
+        margin-right: -4rem;
+    }
+}
+
+@media (min-width: 1611px) {
+    .section.assistant-banner {
+        background-position: 47% 33px, -525px center;
+    }
+}
+
+@media (max-width: 639px) {
+    .section.assistant-banner {
+        max-height: initial;
+        padding: 1rem;
+        padding-top: 55%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 90%
+    }
+
+    .section.assistant-banner .text-right,
+    .section.assistant-banner .h1 {
+        text-align: center
+    }
+
+    .section.assistant-banner .documents-open {
+        display: none
+    }
+}
+
+.arrow-to-clients {
+    position: relative;
+    border-bottom: 1px solid;
+
+}
+
+.arrow-to-clients:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    width: 26px;
+    top: 83%;
+    height: 18px;
+    display: block;
+    background-image: url(http://seminarna.ru/assets/pages/images/arrow-slider-clients.png);
+}
+
+
+.section.assistant-banner .document {
+    width: 150px;
+    margin-left: 50%;
+    margin-top: -30px;
+}
+
+@media (min-width: 1320px) {
+    .section.assistant-banner .document {
+        width: 150px;
+        position: absolute;
+        right: -125px;
+        bottom: 0;
+    }
+
+    .arrow-to-clients {
+        padding-right: 110px;
+
+    }
+
+    .arrow-to-clients:after {
+        content: '';
+        position: absolute;
+        left: 100%;
+        width: 26px;
+        top: 73%;
+        height: 18px;
+        display: block;
+        background-repeat: no-repeat;
+        background-image: url(./assistant/arrow-doc.png);
+    }
+
+    .section.assistant-banner {
+
+        background-position: 46.5% 0px, -525px center;
+        max-height: 320px;
+        background-size: 515px;
+    }
+
+    .section.assistant-banner .h1 {
+        padding-top: 0;
+    }
+}
+
+.button {
+    padding: .35rem 1.5rem;
+    margin: .4rem auto;
+    font-size: 1.02273rem;
+    transition: background-color .3s;
+    background-color: #ffed66;
+    color: #01414a;
+    border: 2px solid #01414a;
+    border-radius: .5rem;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.seo-short {
+    text-align: center;
+
+}
+
+/* .seo-short .h1{
+        margin-top: 1rem
+    } */
+.additional-menu {
+    padding: 15px 0;
+}
+
+.additional-menu .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.additional-menu a {
+    background: #02424B;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    margin: 3px;
+}
+
+.assistant-filter {}
+
+.assistant-filter .section.seminars-filter .branch_name {
+    display: none
+}
+
+.additional-menu .h1 {
+    margin-bottom: 0rem
+}
+
+.assistant-filter .large-9 {
+    width: 100%;
+    left: 0%;
+}
+
+.assistant-filter form>div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.assistant-filter-results .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.assistant-filter .seminars-filter-wrapper.wrapper-branch-6 {
+    background: #01414a
+}
+
+@media screen and (min-width: 40em) {
+    .assistant-filter-results {
+        max-width: 68.18182rem;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+
+.assistant-filter-results .seminar {
+    width: 100%;
+    padding-left: .85227rem;
+    padding-right: .85227rem;
+    margin: 0.5rem;
+    border: none;
+    background-color: #F9F9F9;
+    position: relative;
+    padding-bottom: 110px
+}
+
+.assistant-filter-results .seminar>div:last-child {
+    position: absolute;
+    bottom: 0;
+    left: .85227rem;
+    right: .85227rem;
+}
+
+@media screen and (min-width: 40em) {
+    .assistant-filter-results .seminar {
+        width: 45%;
+
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .assistant-filter-results .seminar {
+        width: 31%;
+
+    }
+}
+
+.assistant-filter-results .seminar .seminar-title {
+    margin-bottom: 1rem;
+}
+
+.assistant-filter-results .seminar .seminar-meta-icons,
+.assistant-filter-results .seminar .seminar-meta-corp-and-dist,
+.assistant-filter-results .seminar .seminar-coming-dates {
+    font-size: .90909rem;
+    margin-right: 0
+}
+
+.assistant-filter-results .seminar .seminar-meta-icons {
+    margin-bottom: 0.5rem;
+}
+
+.assistant-filter-results .seminar .seminar-meta-icons li {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: -4px;
+    width: 100%;
+}
+
+.assistant-filter-results .seminar .seminar-coming-dates {
+    margin-left: 29px;
+    margin-top: -7px;
+    margin-bottom: 0;
+}
+
+.assistant-filter-results .seminar .seminar-price {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 1rem 0
+}
+
+.assistant-filter-results .seminar .seminar-more-link {
+    width: 100%;
+    order: -1;
+    text-align: left;
+    color: #01414a;
+
+}
+
+.assistant-filter-results .seminar .price-amount {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.8;
+    color: #000;
+}
+
+.assistant-filter-results .seminar .column {
+    width: 100%
+}
+
+
+
+.seminar ul.seminar-coming-dates:before,
+i.seminar-ico {
+
+    background: url(https://seminarna.ru/assets/img/seminar-icons.svg) 0 0 no-repeat;
+
+}
+
+._containerflex-2 {
+    display: inline !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.slick-slider {
+    margin: 0;
+    padding: 0;
+}
+
+.photoalbum,
+.service {
+    position: relative;
+    overflow: hidden;
+    background-color: #EBFFFD
+}
+
+.photoalbum ul,
+.service ul {
+    padding-left: 0px;
+}
+
+.photoalbum ul li,
+.service ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.photoalbum ul li:before,
+.service ul li:before {
+    content: '';
+    display: table;
+    position: absolute;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #39a6b7;
+    border-radius: 50%;
+    top: 7px;
+}
+
+.photoalbum .four-columns,
+.service .four-columns {
+    margin-right: -30px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.photoalbum .four-columns>div,
+.service .four-columns>div {
+    width: 350px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1218px) {
+
+    .photoalbum .four-columns>div,
+    .service .four-columns>div {
+        width: 400px;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .photoalbum .four-columns>div,
+    .service .four-columns>div {
+        width: 300px;
+    }
+}
+
+.photoalbum .four-columns .slick-slide a {
+    display: block;
+    height: 200px;
+}
+
+.photoalbum .four-columns .slick-slide img {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 200px !important;
+    object-fit: fill !important;
+}
+
+.service .four-columns .slick-slide img {
+    width: auto;
+    /* height: 200px; */
+}
+
+@media (max-width: 1218px) {
+    .service .four-columns .slick-slide img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 930px) {
+    .service .four-columns .slick-slide img {
+        height: 230px;
+    }
+}
+
+.photoalbum .four-columns .slick-dots,
+.service .four-columns .slick-dots {
+    text-align: center;
+    margin-left: auto;
+    padding: 0;
+    margin-top: -20px;
+}
+
+.photoalbum .four-columns .slick-dots li,
+.service .four-columns .slick-dots li {
+    display: inline-block;
+}
+
+.photoalbum .four-columns .slick-dots li:before,
+.service .four-columns .slick-dots li:before {
+    content: none;
+}
+
+.photoalbum .four-columns .slick-dots li.slick-active button,
+.service .four-columns .slick-dots li.slick-active button {
+    background-color: #39a6b7;
+}
+
+.photoalbum .four-columns .slick-dots button,
+.service .four-columns .slick-dots button {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #39a6b7;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: white;
+    margin: 0 1.5px;
+    cursor: pointer;
+}
+
+.assistant-service h2+p {
+    text-align: center
+}
+
+.assistant-service h4 {
+    font-weight: 600;
+    text-align: center
+}
+
+.section.lecture {
+    padding: 2rem 0
+}
+
+.section.lecture .h1 {
+    text-align: left;
+    margin-top: -1rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+
+.section.lecture img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.section.lecture .icons img {
+    height: 70px;
+}
+
+@media (max-width: 639px) {
+
+    .section.lecture,
+    .section.lecture .h1 {
+        text-align: center
+    }
+}
+</style>
+<!-- / Добавила стили -->
+
+<link rel="stylesheet" href="https://seminarna.ru/assets/pages/css/new-styles-3.css">
+
+<!-- Добавила баннер, в style back-image url нужно перезаписать -->
+<div class="section assistant-banner banner">
+<div class="row">
+    <div class=" medium-5 large-3 column text-right text-block">
+        <p class="h1">Бизнес-школа
+            секретарей
+            и помощников
+            руководителя </p>
+
+
+        <p class='name'>Анны Сосновой</p>
+        <a class="button" data-reveal-id="order_consult_modal" data-open="order_consult_modal"
+            data-text-form="Получите консультацию" data-textarea-form="Ваш вопрос"
+            data-textarea-form-placeholder="(Ваши комментарии, пожелания к программе, целевая аудитория, количество участников и тд.)">Узнать
+            подробнее</a>
+    </div>
+    <div class="medium-6 large-offset-5 large-4 xlarge-offset-5 column documents-wrapper">
+        <a href="https://seminarna.ru/assets/pages/images/documents.png" class="documents-open" title="Лицензия">
+            <img src="https://seminarna.ru/assets/pages/images/documents.png" alt="Лицензия">
+        </a>
+        <ul class="banner-list">
+            <li>Лицензия Департамента <br /> Образования г.Москвы</li>
+            <li>Авторская методика обучения по <br />soft & hard skills и менеджменту знаний</li>
+            <li>Преподаватели - практики и лучшие эксперты России</li>
+            <li>Все формы обучения: очно и онлайн</li>
+            <li>Профессиональное сообщество и нетворкинг</li>
+            <li>Содействие в поиске работы и карьерные консультации</li>
+            <li>Документы об окончании
+                <span class="arrow-to-clients">гособразца</span>
+            </li>
+        </ul>
+        <img class='document' src='https://seminarna.ru/assets/pages/images/documents/udostoverenie.png' />
+
+
+
+    </div>
+
+</div>
+</div>
+<!-- / Добавила баннер -->
+
+<!-- Якорное меню, надо сделать отступ на высоту хедера, может на сайте где уже реализовано, если что могу дописать js -->
+<div class="section additional-menu">
+<div class="row column">
+    <a href="#clients">Клиенты</a>
+    <a href="#documents">Документы об окончании</a>
+    <a href="#founder">Об основателе</a>
+    <a href="#formats">Форматы обучения</a>
+    <a href="#cources">Курсы для секретарей и ассистентов</a>
+    <a href="#school">О школе </a>
+</div>
+</div>
+<!-- /Якорное меню -->
+
+<!-- Добавила заголовок для фильтра -->
+<div id="courses" class="section">
+<div class="row column">
+    <p class="h1 seminars-filter_name">Все курсы бизнес-школы</p>
+</div>
+</div>
+<!-- / Added    -->
+
+<!-- Добавила обертку динамическому фильтру чтобы перезаписать стили  -->
+<div class='assistant-filter'>
+<!-- /  Добавила обертку фильтру -->
+<div class="seminars-filter-wrapper  wrapper-branch-6">
+    <div class="section inv seminars-filter">
+        <div class="row">
+            <div class="large-9 column large-push-3 medium-12 column">
+                <p class="h1 seminars-filter_name"></p>
+
+                <form id="seminars_filter_form"
+                    action="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/" method="get">
+                    <p class="h1 branch_name">Бизнес-школа ассистентов руководителя
+                    </p>
+                    <input type="hidden" name="br" value="84">
+                    <input type="hidden" name="doc" value="">
+                    <input type="hidden" name="type" value="">
+                    <div>
+                        <div class="filter-dates filter-block">
+                            <div class="filter-heading">
+                                <span>Выберите дату:</span>
+                            </div>
+                            <span class="filter-item">c <input type="text" name="from" placeholder="дд.мм.гггг"
+                                    value=""></span>
+                            <span class="filter-item">по <input type="text" name="to" placeholder="дд.мм.гггг"
+                                    value=""></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="filter-block">
+                            <div class="filter-heading">
+                                <span>Выберите направление:</span>
+                            </div>
+
+                            <div class="column filter-step-1 active">
+                                <div class="branch-menu">
+                                    <ul class="branch-menu-flex">
+                                        <li class="branch-11" data-branch_id="11"><i
+                                                class="ico ico-secretary"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/kursy_secretarey/">Секретариат
+                                                и офис-менеджмент</a></li>
+                                        <li class="branch-45" data-branch_id="45"><i class="ico ico-archive"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/obuchenie_arhivnomu_delu/">Архивное
+                                                дело</a></li>
+                                        <li class="branch-1" data-branch_id="1"><i class="ico ico-manage2"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/kursy-upravleniya-personalom/">Управление
+                                                персоналом</a></li>
+                                        <li class="branch-51" data-branch_id="51"><i class="ico ico-qa"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/professionalnye-standarty/">Профессиональные
+                                                стандарты</a></li>
+                                        <li class="branch-67" data-branch_id="67"><i class="ico ico-qual"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/servis-obsluzhivanie-klientov/">Сервис.
+                                                Работа с клиентами</a></li>
+                                        <li class="branch-37" data-branch_id="37"><i class="ico ico-pie"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/treningi-po-prodazham/">Управление
+                                                продажами</a></li>
+                                        <li class="branch-76" data-branch_id="76"><i class="ico ico-phone"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/trening_telefonnoe_obscheniye/">Телефонное
+                                                общение</a></li>
+                                        <li class="branch-12" data-branch_id="12"><i class="ico ico-chart"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/kursy-marketinga/">Интернет-маркетинг</a>
+                                        </li>
+                                        <li class="branch-10" data-branch_id="10"><i class="ico ico-busy"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/obuchenie-korporativnoy-kulture/">Имидж
+                                                и Бизнес-этикет</a></li>
+                                        <li class="branch-13" data-branch_id="13"><i class="ico ico-idea"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/kursy-menedzhmenta/">Личная
+                                                эффективность</a></li>
+                                        <li class="branch-75" data-branch_id="75"><i class="ico ico-sec"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/bezopasnost-biznesa/">Безопасность
+                                                бизнеса</a></li>
+                                        <li class="branch-84" data-branch_id="84"><i class="ico ico-case"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/">Бизнес-школа
+                                                ассистентов руководителя</a></li>
+                                        <li class="branch-71" data-branch_id="71"><i class="ico ico-fire"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/antiterror_go_i_chs/">Предупреждение
+                                                и ликвидация ЧС</a></li>
+                                        <li class="branch-89" data-branch_id="89"><i class="ico ico-finance"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/obuchenie-upravleniyu-organizatciey/">Стратегия.
+                                                Процессы. Проекты</a></li>
+                                        <li class="branch-74" data-branch_id="74"><i class="ico ico-manage1"></i><a
+                                                href="https://seminarna.ru/seminari-i-treningi/online_obuchenie/">Онлайн-обучение</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="filter-selected-branch">
+                                    <div class="breadcrumbs">
+                                        <div class="breadcrumbs-item" itemscope=""
+                                            itemtype="http://data-vocabulary.org/Breadcrumb">
+                                            <a href="https://seminarna.ru/seminari-i-treningi/"
+                                                itemprop="url"><span>Все направления</span></a>
+                                            <meta itemprop="title" content="Семинары и тренинги">
+                                        </div>
+                                        <div class="breadcrumbs-item breadcrumbs-selected" itemscope=""
+                                            itemtype="http://data-vocabulary.org/Breadcrumb">
+                                            <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/"
+                                                itemprop="url"><span itemprop="title">Бизнес-школа ассистентов
+                                                    руководителя</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-step-2">
+                            <div class="filter-block">
+                                <div class="filter-heading">Тип программы:</div>
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/?type=1">Семинары
+                                            и тренинги</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://seminarna.ru/seminari-i-treningi/kursy_povysheniya_kvalificacii_secretarey-pomoschnikov/">Курс
+                                            повышения квалификации</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/?type=4">Дистанционное
+                                            обучение</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/?type=5">Профессиональная
+                                            переподготовка</a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/?type=6">Вебинары</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <script>
+                    window.defer = window.defer || [];
+                    window.defer.push(function ($) {
+                        var form = $('#seminars_filter_form');
+                        br = form.find('input[name=br]').val();
+
+                        $('.branch_name').toggleClass('hide').text($('.breadcrumbs-selected a').text());
+                        if (br == 11) { $('.seminars-filter-wrapper').addClass('wrapper-branch-1'); }
+                        if (br == 37) { $('.seminars-filter-wrapper').addClass('wrapper-branch-3'); }
+                        if (br == 10) { $('.seminars-filter-wrapper').addClass('wrapper-branch-2'); }
+                        if (br == 77) { $('.seminars-filter-wrapper').addClass('wrapper-branch-5'); }
+                        if (br == 45) { $('.seminars-filter-wrapper').addClass('wrapper-branch-4'); }
+                        if (br == 51) { $('.seminars-filter-wrapper').addClass('wrapper-branch-13'); }
+                        if (br == 12) { $('.seminars-filter-wrapper').addClass('wrapper-branch-10'); }
+                        if (br == 13) { $('.seminars-filter-wrapper').addClass('wrapper-branch-7'); }
+                        if (br == 84) { $('.seminars-filter-wrapper').addClass('wrapper-branch-6'); }
+                        if (br == 1) { $('.seminars-filter-wrapper').addClass('wrapper-branch-8'); }
+                        if (br == 89) { $('.seminars-filter-wrapper').addClass('wrapper-branch-9'); }
+                        if (br == 67) { $('.seminars-filter-wrapper').addClass('wrapper-branch-15'); }
+                        if (br == 76) { $('.seminars-filter-wrapper').addClass('wrapper-branch-12'); }
+                        if (br == 75) { $('.seminars-filter-wrapper').addClass('wrapper-branch-14'); }
+                        if (br == 71) { $('.seminars-filter-wrapper').addClass('wrapper-branch-11'); }
+                        if (br == 74) { $('.seminars-filter-wrapper').addClass('wrapper-branch-16'); }
+
+                        $('.breadcrumbs .breadcrumbs-item a').on('click', function (e) {
+                            e.preventDefault();
+                            $('.branch_name').addClass('hide');
+                            $('.seminars-filter-wrapper').removeClass('wrapper-branch-1').removeClass('wrapper-branch-2').removeClass('wrapper-branch-3').removeClass('wrapper-branch-15').removeClass('wrapper-branch-14').removeClass('wrapper-branch-13').removeClass('wrapper-branch-12').removeClass('wrapper-branch-11').removeClass('wrapper-branch-10').removeClass('wrapper-branch-8').removeClass('wrapper-branch-7').removeClass('wrapper-branch-5').removeClass('wrapper-branch-4').removeClass('wrapper-branch-9').removeClass('wrapper-branch-16').removeClass('wrapper-branch-6');
+                        });
+
+                        form.on('click', '.filter-selected-branch a', function (e) {
+                            e.preventDefault();
+                            form.find('input[name=br]').val('');
+                            $('.filter-step-1').removeClass('active');
+                            $('.branch_name').addClass('hide');
+                            $('.seminars-filter-wrapper').removeClass('wrapper-branch-1').removeClass('wrapper-branch-2').removeClass('wrapper-branch-3').removeClass('wrapper-branch-15').removeClass('wrapper-branch-14').removeClass('wrapper-branch-13').removeClass('wrapper-branch-12').removeClass('wrapper-branch-11').removeClass('wrapper-branch-10').removeClass('wrapper-branch-8').removeClass('wrapper-branch-7').removeClass('wrapper-branch-5').removeClass('wrapper-branch-4').removeClass('wrapper-branch-9').removeClass('wrapper-branch-16').removeClass('wrapper-branch-6');
+                        });
+
+                        $('.filter-step-2 a').on('click', function (e) {
+                            var t = $(this);
+                            if (!t.data('param')) {
+                                return;
+                            }
+
+                            e.preventDefault();
+                            var li = t.closest('li'),
+                                input = form.find('input[name=' + t.data('param') + ']');
+                            input.val(li.is('.active') ? '' : t.data('val'));
+                            li.siblings('li').removeClass('active');
+                            li.toggleClass('active');
+                            form.submit();
+                        });
+
+                        form.find('input[name=from], input[name=to]').on('change', function () {
+                            form.submit();
+                        });
+
+                        form.on('submit', function (e) {
+                            e.preventDefault();
+                            var filterResults = $('.section.filter-results');
+                            filterResults.block();
+                            $.post(form.attr('action'), form.serialize(), function (content) {
+                                filterResults.html(content);
+                                filterResults.find('.slick-auto').slick();
+                                filterResults.unblock();
+                            });
+                        });
+
+                        // datepickers
+
+                        var fromInput = form.find('input[name=from]'),
+                            toInput = form.find('input[name=to]'),
+                            datePickers = new sem.DatePickers(fromInput, toInput);
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  Добавила обертку фильтру   -->
+</div>
+<!-- /  Добавила обертку фильтру  -->
+
+<!--  Добавила обертку динамическому блоку с результатами фильтра    -->
+<div class='assistant-filter-results'>
+<!-- / Добавила обертку   -->
+<div class="section  filter-results">
+
+    <h1 class="h1">
+        Курсы и обучение помощников-руководителя, ассистентов, секретарей-референтов
+    </h1>
+
+    <div class="section branch-description">
+        <div class="row column">
+            <p>Центр профессионального развития «ПРОФИ-КАРЬЕРА» проводит курсы помощников руководителя, личных
+                ассистентов и секретарей-референтов в самом центре Москвы. Обучение проводят действующие
+                ассистенты,
+                авторы статей в профильные журналы для секретарей-референтов, спикеры конференций, известные
+                бизнес-тренеры. У нас уже обучились помощники руководителей компаний ФМБА России, ВЭБ-лизинг,
+                Роснефть, Норильский Никель и др.</p>
+        </div>
+    </div>
+
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/administrativnoe-i-organizatsionnoe-soprovozhdenie-rukovoditelya.html">Тайм-менеджмент.
+                    Административное и организационное сопровождение руководителя</a></h2>
+            <p class="seminar-description">В программе: организация совещаний, основы протоколирования,
+                организация
+                командировок руководителя, ведение тайм-менеджмента руководителя, основы деловой письменной
+                коммуникации и др.</p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 день (8 академических часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Семинары и тренинги</li>
+                    <li><i class="seminar-ico ico-doc"></i> Сертификат</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=762&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> <img src="https://seminarna.ru/assets/img/new.svg">
+                    </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="8500">8&nbsp;500</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/administrativnoe-i-organizatsionnoe-soprovozhdenie-rukovoditelya.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/digital-skills-tsifrovye-navyki-v-rabote-assistenta-rukovoditelya.html">Digital
+                    skills - цифровые навыки в работе ассистента руководителя&nbsp;</a></h2>
+            <p class="seminar-description">В программе: облачные хранилища, мобильные приложения по финансам,
+                организации командировок; планировщики времени, to-do листы, инфографика, интеллект-карты и др.
+            </p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 день (8 академических часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Семинары и тренинги</li>
+                    <li><i class="seminar-ico ico-doc"></i> Сертификат</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=761&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> <img src="https://seminarna.ru/assets/img/new.svg">
+                    </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="8500">8&nbsp;500</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/digital-skills-tsifrovye-navyki-v-rabote-assistenta-rukovoditelya.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/kurs-professionalnyy-sekretar-pomoshnik-rukovoditelya.html">Курс:
+                    Профессиональный секретарь-помощник руководителя </a></h2>
+            <p class="seminar-description">В программе: делопроизводство для секретарей, документооборот, основы
+                бизнес-этикета и делового общения, тайм-менеджмент, организация
+                командировок/совещаний,телефонная
+                беседа, офисное гостеприимство и др.</p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 5 дней (40 академ. часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Курс повышения квалификации</li>
+                    <li><i class="seminar-ico ico-doc"></i> Удостоверение</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=105&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> <img
+                            src="./Курсы и обучение помощников руководителя, секретарей-референтов, ассистентов в Москве_files/recomend.svg">
+                    </div>
+                </a>
+                <div class="price-amount">Бесплатно</div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/kurs-professionalnyy-sekretar-pomoshnik-rukovoditelya.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/personalnyy-biznes-assistent-lichnyy-pomoshnik-rukovoditelya.html">Персональный&nbsp;ассистент.
+                    Личный помощник руководителя. Дистанционный курс повышения квалификации</a></h2>
+            <p class="seminar-description">Дистанционный курс повышения квалификации для помощников
+                руководителя,
+                персональных ассистентов.
+                В программе: делопроизводство, работа с посетителями, телефонное общение, планирование дня
+                руководителя, организация командировок, деловой этикет и др.</p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Из любой точки мира</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 месяц (72 академических часа)</li>
+                    <li><i class="seminar-ico ico-wifi"></i> Онлайн-обучение</li>
+                    <li><i class="seminar-ico ico-doc"></i> Удостоверение</li>
+                    <li><i class="seminar-ico ico-sandclock"></i> В удобное Вам время</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+            <ul class="seminar-coming-dates">
+                <li>В любое время</li>
+            </ul>
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=701&amp;branch=84&amp;plan=4"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> <img src="https://seminarna.ru/assets/img/new.svg">
+                    </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="9800">9&nbsp;800</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/personalnyy-biznes-assistent-lichnyy-pomoshnik-rukovoditelya.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/e-tiket-i-vedenie-delovogo-telefonnogo-razgovora-dlya-sekretarya.html">Тренинг:Телефонный
+                    этикет и ведение делового телефонного разговора для административного персонала</a></h2>
+            <p class="seminar-description">В программе: прием и распределение телефонных звонков организации,
+                основные требования этикета к ведению делового телефонного разговора, получение необходимой
+                информации и др.</p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 день (8 академических часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Семинары и тренинги</li>
+                    <li><i class="seminar-ico ico-doc"></i> Сертификат</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=632&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="8500">8&nbsp;500</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/e-tiket-i-vedenie-delovogo-telefonnogo-razgovora-dlya-sekretarya.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/povyshenie-lichnoy-e-ffektivnosti-sekretarya-i-organizatsionno-informatsionnoe-soprovozhdenie-deyatelnosti-rukovoditelya.html">Семинар:
+                    Тайм-менеджмент. Организационно-информационное сопровождение деятельности руководителя.</a>
+            </h2>
+            <p class="seminar-description">В программе: принципы планирования рабочего времени руководителя,
+                выбор
+                формы планирования и оформление планировщика (органайзера) руководителя, контроль исполнения
+                поручений, организация совещаний, электронная переписка, организация командировок и др.</p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 день (8 академических часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Семинары и тренинги</li>
+                    <li><i class="seminar-ico ico-doc"></i> Сертификат</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=708&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> <img src="https://seminarna.ru/assets/img/new.svg">
+                    </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="8500">8&nbsp;500</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/povyshenie-lichnoy-e-ffektivnosti-sekretarya-i-organizatsionno-informatsionnoe-soprovozhdenie-deyatelnosti-rukovoditelya.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/seminar-praktikum-sostavlenie-i-oformlenie-protokola-sobraniy-i-soveshaniy.html">Составление
+                    и оформление протокола собраний и совещаний</a></h2>
+            <p class="seminar-description">В программе: правила составления и оформления протокола, алгоритм
+                составления и оформления протокола, работа с текстом протокола, технология контроля исполнения
+                заданий, зафиксированных в протоколе, правила хранения протоколов</p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 день (8 академических часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Семинары и тренинги</li>
+                    <li><i class="seminar-ico ico-doc"></i> Сертификат</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=524&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="8500">8&nbsp;500</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/seminar-praktikum-sostavlenie-i-oformlenie-protokola-sobraniy-i-soveshaniy.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <div class="seminar row">
+        <div class="medium-8 large-8 column">
+            <h2 class="seminar-title"><a
+                    href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/delovaya-perepiska-sostavlenie-oformlenie-yazyk-i-stil.html">
+                    Семинар: Деловая переписка: составление, оформление, язык и стиль </a></h2>
+            <p class="seminar-description">В программе: понятие стилистика письма, критерии и языковые
+                особенности
+                делового стиля, структура делового письма, работа над составлением текста, структура и
+                композиция
+                текста, форма изложения, стили, виды деловых писем, шаблоны </p>
+            <div class="seminar-meta-icons">
+                <ul>
+                    <li><i class="seminar-ico ico-place"></i> Москва</li>
+                    <li><i class="seminar-ico ico-clock"></i> 1 день (8 академических часов)</li>
+                    <li><i class="seminar-ico ico-sun"></i> Семинары и тренинги</li>
+                    <li><i class="seminar-ico ico-doc"></i> Сертификат</li>
+                </ul>
+            </div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/corp-training.svg"
+                    alt=""> Возможен корпоративный формат обучения</div>
+            <div class="seminar-meta-corp-and-dist"><img src="https://seminarna.ru/assets/img/distant.svg" alt="">
+                Возможен дистанционный формат обучения</div>
+        </div>
+        <div class="medium-4 large-2 column">
+        </div>
+        <div class="medium-12 large-2 column">
+            <div class="seminar-price">
+                <a href="https://seminarna.ru/registry.html?sem=584&amp;branch=84&amp;plan=2"
+                    class="seminar-register">
+                    Оставить заявку
+                    <div class="special-ico"> </div>
+                </a>
+                <div class="price-amount"><span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"
+                        class="amount"><span itemprop="price" content="8500">8&nbsp;500</span>&nbsp;руб.</span>
+                </div>
+
+
+                <a href="https://seminarna.ru/seminari-i-treningi/kursy_pomoschnika_rukovoditelya/delovaya-perepiska-sostavlenie-oformlenie-yazyk-i-stil.html"
+                    class="seminar-more-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Добавила обертку  -->
+</div>
+<!-- / Добавила обертку    -->
+
+<!-- Добавлен блок, нужно будет заменить фото в слайдерх    -->
+<div id='formats' class="service assistant-service">
+<div class="_container">
+    <h2>Как у нас можно обучиться?
+    </h2>
+    <p>Более 3000 помощников и ассистентов обучились в нашем центре.
+        Мы предлагаем разные варианты обучения:
+    </p>
+    <div class="_containerflex-2 four-columns">
+        <div>
+            <h4>Очное обучение</h4>
+            <div class="slider_container">
+                <div class="slider_upper_block service_slider">
+                    <div><a href="https://seminarna.ru/upload/2018-09/7108f3a.jpg">
+                            <img src="https://seminarna.ru/upload/2018-09/7108f3a.jpg"></a>
+                    </div>
+                    <div><a href="https://seminarna.ru/assets/pages/images/beige-hall/new_hall2.jpg">
+                            <img src="https://seminarna.ru/assets/pages/images/beige-hall/new_hall2.jpg"></a>
+                    </div>
+                    <div><a href="https://seminarna.ru/assets/pages/images/beige-hall/new_hall3.jpg">
+                            <img src="https://seminarna.ru/assets/pages/images/beige-hall/new_hall3.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <p><strong>Очные занятия для секретарей и ассистентов</strong> в центре Москвы на м.Пролетарская.
+                Расписание на сайте</p>
+            <ul>
+                <li>Кейсовые и ролевые форматы</li>
+                <li>Возможность вживую проконсультироваться с экспертами</li>
+                <li>Обмен опытом</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Корпоративное обучение</h4>
+            <div class="slider_container">
+                <div class="slider_upper_block service_slider">
+                    <div><a href="https://seminarna.ru/assets/pages/images/slider/corp5.JPG">
+                            <img src="https://seminarna.ru/assets/pages/images/slider/corp5.JPG"></a>
+                    </div>
+                    <div><a href="https://seminarna.ru/assets/pages/images/beige-hall/new_hall2.jpg">
+                            <img src="https://seminarna.ru/assets/pages/images/beige-hall/new_hall2.jpg"></a>
+                    </div>
+                    <div><a href="https://seminarna.ru/assets/pages/images/beige-hall/new_hall3.jpg">
+                            <img src="https://seminarna.ru/assets/pages/images/beige-hall/new_hall3.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <p><strong>Очные занятия для групп секретарей и ассистентов</strong> одной организации. Программа
+                адаптируется под
+                Ваши задачи</p>
+            <ul>
+                <li>Ваша программа обучения составляется под Вас</li>
+                <li>Преподаватель приедет в удобное время на Вашу территорию</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Онлайн-обучение</h4>
+            <div class="slider_container">
+                <div class="slider_upper_block service_slider">
+                    <div><a href="./assistant/online.jpeg">
+                            <img src="./assistant/online.jpeg"></a>
+                    </div>
+                    <div><a href="https://seminarna.ru/assets/pages/images/beige-hall/new_hall2.jpg">
+                            <img src="https://seminarna.ru/assets/pages/images/beige-hall/new_hall2.jpg"></a>
+                    </div>
+                    <div><a href="https://seminarna.ru/assets/pages/images/beige-hall/new_hall3.jpg">
+                            <img src="https://seminarna.ru/assets/pages/images/beige-hall/new_hall3.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <p><strong>Онлайн-обучение</strong> без привязки к группе и времени</p>
+            <ul>
+                <li>Логичные тематические модули</li>
+                <li>Доступ через персональный личный кабинет</li>
+                <li>Материал для скачивания остается с Вами навсегда</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!-- /  Добавлен блок    -->
+
+<!-- Добавлен блок  -->
+<div id='founder' class='section lecture'>
+<div class="row column">
+
+    <div class="row column">
+        <div class="column large-7 medium-7">
+            <p>Об основателе:</p>
+            <p class='h1'>Сосновая Анна</p>
+            <div class='row icons'>
+                <div class="column large-4 medium-4">
+                    <img src='./assistant/calendar.jpeg' />
+                    <p>Более <strong>10 лет </strong><br /> в профессии</p>
+                </div>
+                <div class="column large-4 medium-4">
+                    <img src='./assistant/clients.jpeg' />
+                    <p><strong>Работала</strong> в Лаборатории Касперского, Минпромторге России
+                    </p>
+                </div>
+                <div class="column large-4 medium-4">
+                    <img src='./assistant/champion.jpeg' />
+                    <p><strong>Победитель премии PA-AWARDS 2019</strong> в номинации Наставник года
+                    </p>
+                </div>
+            </div>
+            <div class='row icons'>
+                <div class="column large-4 medium-4">
+                    <img src='./assistant/certificate.jpeg' />
+                    <p>
+                        <strong>Закончила</strong> Международную Сертификационную программу по направлению
+                        Менеджмент знаний (англ. knowledge management)
+                    </p>
+                </div>
+                <div class="column large-4 medium-4">
+                    <img src='./assistant/learn.jpeg' />
+                    <p><strong>Преподает</strong> в Газпром, Лукойл, Платежных картах «МИР», Северсталь
+                    </p>
+                </div>
+                <div class="column large-4 medium-4">
+                    <img src='./assistant/help.jpeg' />
+                    <p><strong>Сотрудничает</strong> с Университетом Синергия, онлайн-академией «Мое дело», ГБУ
+                        «Малый бизнес Москвы»
+                    </p>
+                </div>
+            </div>
+            <a class="button" data-reveal-id="order_consult_modal" data-open="order_consult_modal"
+                data-text-form="Получите консультацию" data-textarea-form="Ваш вопрос"
+                data-textarea-form-placeholder="(Ваши комментарии, пожелания к программе, целевая аудитория, количество участников и тд.)">Задать
+                вопрос основателю!</a>
+
+        </div>
+        <div class="column large-5 medium-5">
+            <img src='./assistant/sosnova.jpeg' />
+            <p><strong>Постоянный автор статей</strong> и эксперт рубрик в журналах “Секретарь-референт”,
+                “Справочник секретаря и офис-менеджера”, “Кадровое дело”
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+<!-- / Добавлен блок -->
+
+<!-- Добавлен блок    -->
+<div id='documents' class="section about alt">
+<div class="row">
+    <p class="h1">О нас</p>
+    <div class="column medium-6">
+        <p>Лицензированный центр «ПРОФИ-КАРЬЕРА» работает на рынке дополнительного образования и повышения
+            квалификации с 2002 года. </p>
+        <p>У нас Вы найдете широкий спектр и удобный формат курсов обучения для специалистов и руководителей
+            различного уровня: <a class="urlAbout" href="https://seminarna.ru/seminari-i-treningi/">очный по
+                расписанию на сайте</a>, <a class="urlAbout"
+                href="https://seminarna.ru/online_obuchenie.html">дистанционный</a> или <a class="urlAbout"
+                href="https://seminarna.ru/korporativnoe-obuchenie.html">корпоративный для группы Ваших
+                сотрудников</a>.</p>
+        <p>Программы обучения составлены в соответствии с действующими профессиональными стандартами. По
+            окончании семинаров или тренингов выдаются сертификаты, курсов повышения квалификации –
+            удостоверения установленного образца.</p>
+        <a class="urlAbout" href="https://seminarna.ru/about.html">Подробнее о центре</a>
+    </div>
+    <div class="column medium-6">
+        <div class="certificates-gallery-main">
+            <div class="item">
+                <a href="/assets/img/certificates/cert.jpg" title="Выдаваемый сертификат установленного образца">
+                    <img src="https://seminarna.ru/assets/img/certificates/cert-m.jpg"
+                        alt="Выдаваемый сертификат установленного образца">
+                </a>
+            </div>
+            <div class="item">
+                <a href="/assets/img/certificates/diploms.jpg" title="Диплом и удостоверение">
+                    <img src="https://seminarna.ru/assets/img/certificates/diploms-m.jpg"
+                        alt="Диплом и удостоверение">
+                </a>
+            </div>
+            <div class="item">
+                <a href="/assets/img/certificates/cert1.jpg" title="Лицензия">
+                    <img src="https://seminarna.ru/assets/img/certificates/cert1-m.jpg" alt="Лицензия">
+                </a>
+            </div>
+            <div class="item">
+                <a href="/assets/img/certificates/cert3.jpg" title="Лицензия (обратная сторона)">
+                    <img src="https://seminarna.ru/assets/img/certificates/cert3-m.jpg"
+                        alt="Лицензия (обратная сторона)">
+                </a>
+            </div>
+            <div class="item">
+                <a href="/assets/img/certificates/cert2.jpg" title="Реквизиты">
+                    <img src="https://seminarna.ru/assets/img/certificates/cert2-m.jpg" alt="Реквизиты">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- / Добавлен блок    -->
+
+<!-- Добавлен блок, заменен текст -->
+<div id='clients' class="section clients">
+<div class="row column">
+    <p class="h1">Клиенты</p>
+    <p class="h2">За более чем 15 летнюю историю центра мы обучили помощников и ассистентов таких компаний как:
+    </p>
+    <ul class="slick-carousel clients-carousel">
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/aeroflot.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/vtb.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/perecrestok.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/avon.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/sberbank.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/gazprom.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/rostelecom.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/dvorkult.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/gohran.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/interrao.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/kanada.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/kuban.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/mosgaz.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/northwind.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/Auchan.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/pic.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/qiwi.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/rgd.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/roskosmos.png" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/rosneft.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/rusal.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/cherkizovo.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/sheremetevo.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/sibur.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/ticketland.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/tsvetnov.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/almaz.jpg" alt=""></li>
+        <li class="slick-slide"><img src="https://seminarna.ru/i/newlogo/wv.jpg" alt=""></li>
+    </ul>
+</div>
+</div>
+<!-- / Добавлен блок -->
+
+<!-- Ниже динамические -->
+<!-- {% include 'seminars/seminarReviews.twig' %} -->
+<!-- {% if RecomendBranch %}
+<div class="section recomend">
+    <div class="row column text-center">
+        <p class="h1">Вас также может заинтересовать</p>
+        {% if RecomendName0 %}
+            <div class="seminar_column">
+                <h5 class="seminar-title"><a target="_blank" href="/seminari-i-treningi/{{ RecomendAlias0 }}">{{ RecomendName0 }}</a></h5>
+                <a href="/seminari-i-treningi/{{ RecomendAlias0 }}" target="_blank" class="button">Подробнее</a>
+            </div>
+        {% endif %}
+        {% if RecomendName1 %}
+            <div class="seminar_column">
+                <h5 class="seminar-title"><a target="_blank" href="/seminari-i-treningi/{{ RecomendAlias1 }}">{{ RecomendName1 }}</a></h5>
+                <a href="/seminari-i-treningi/{{ RecomendAlias1 }}" target="_blank" class="button">Подробнее</a>
+            </div>
+        {% endif %}
+        {% if RecomendName2 %}
+            <div class="seminar_column">
+                <h5 class="seminar-title"><a target="_blank" href="/seminari-i-treningi/{{ RecomendAlias2 }}">{{ RecomendName2 }}</a></h5>
+                <a href="/seminari-i-treningi/{{ RecomendAlias2 }}" target="_blank" class="button">Подробнее</a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %} -->
+<!-- {% if branchDescription %}
+<div class="section branch-description">
+    <div class="row column">
+        <p class="h1">Описание направления &laquo;{{ selectedBranch.MenuTitle }}&raquo;</p>
+        {{ branchDescription|raw }}
+    </div>
+</div>
+{% endif %} -->

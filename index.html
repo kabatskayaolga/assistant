@@ -65,7 +65,7 @@
 
         
         .section.assistant-banner {
-            background-image: url(./assistant/assistant-banner1.svg),
+            background-image: url(./assistant/assistant-banner.svg),
                 url(../images/home-slider-back.svg);
             background-position: 47.5% 31px, -525px center;
             max-height: 410px;
@@ -109,7 +109,7 @@
             background-size: contain;
             background-repeat: no-repeat;
             color: #fff;
-            padding: 30px 50px;
+            padding: 20px 40px;
             margin-right: -5rem;
             margin-left: -2rem;
             margin-top: 1rem;
@@ -129,25 +129,17 @@
             width: 130px;
         }
 
-        .section.assistant-banner .document {
-            width: 150px;
-            margin-left: 50%;
-            margin-top: -30px;
-        }
 
-        .seo-short .seminars-filter_name {
+        #courses .seminars-filter_name {
             margin-bottom: -0.5rem;
             margin-top: 0rem;
             text-transform: uppercase
         }
 
         @media (min-width: 640px) and (max-width: 900px) {
-
             .section.assistant-banner .documents-open img {
                 width: 89px;
             }
-
-
         }
 
         @media (min-width: 640px) and (max-width: 681px) {
@@ -179,7 +171,7 @@
 
         @media (min-width: 1024px) and (max-width: 1366px) {
             .section.assistant-banner {
-                background-image: url(./assistant/assistant-banner1.svg), url(../images/home-slider-back.svg);
+                background-image: url(./assistant/assistant-banner.svg), url(../images/home-slider-back.svg);
                 background-position: 45.8% 45px, -650px center;
                 max-height: initial;
                 background-color: #fff;
@@ -236,6 +228,7 @@
         .arrow-to-clients {
             position: relative;
             border-bottom: 1px solid;
+            
         }
 
         .arrow-to-clients:after {
@@ -249,6 +242,45 @@
             background-image: url(http://seminarna.ru/assets/pages/images/arrow-slider-clients.png);
         }
 
+
+        .section.assistant-banner .document {
+            width: 150px;
+            margin-left: 50%;
+            margin-top: -30px;
+        }
+        @media (min-width: 1320px){
+            .section.assistant-banner .document {
+                width: 150px;
+                position: absolute;
+                right: -125px;
+                bottom: 0;
+        }
+        .arrow-to-clients {
+            padding-right: 110px;
+            
+        }
+
+        .arrow-to-clients:after {
+            content: '';
+            position: absolute;
+            left: 100%;
+            width: 26px;
+            top: 73%;
+            height: 18px;
+            display: block;
+            background-repeat: no-repeat;
+            background-image: url(./assistant/arrow-doc.png);
+        }
+        .section.assistant-banner {
+           
+            background-position: 46.5% 0px, -525px center;
+            max-height: 320px;
+            background-size: 515px;
+        }
+        .section.assistant-banner .h1{
+            padding-top: 0;
+        }
+        }
         .button {
             padding: .35rem 1.5rem;
             margin: .4rem auto;
@@ -904,15 +936,15 @@
 
     <div class="section additional-menu">
         <div class="row column">
-            <a href="">Клиенты</a>
-            <a href="">Документы об окончании</a>
-            <a href="">Об основателе</a>
-            <a href="">Форматы обучения</a>
-            <a href="">Курсы для секретарей и ассистентов</a>
-            <a href="">О школе </a>
+            <a href="#clients">Клиенты</a>
+            <a href="#documents">Документы об окончании</a>
+            <a href="#founder">Об основателе</a>
+            <a href="#formats">Форматы обучения</a>
+            <a href="#cources">Курсы для секретарей и ассистентов</a>
+            <a href="#school">О школе </a>
         </div>
     </div>
-    <div class="section seo-short">
+    <div id="cources" class="section seo-short">
         <div class="row column">
            
             <p class="h1 seminars-filter_name">Все курсы бизнес-школы</p>
@@ -1544,7 +1576,7 @@
     <!-- / Added    -->
 
     <!-- Added    -->
-    <div class="service assistant-service">
+    <div id='formats' class="service assistant-service">
         <div class="_container">
             <h2>Как у нас можно обучиться?
             </h2>
@@ -1624,7 +1656,7 @@
     </div>
     <!-- / Added    -->
 
-    <div class='section lecture'>
+    <div id='founder' class='section lecture'>
         <div class="row column">
            
             <div class="row column">
@@ -1679,7 +1711,7 @@
 
 
     <!-- Added    -->
-    <div class="section about alt">
+    <div id='documents' class="section about alt">
         <div class="row">
             <p class="h1">О нас</p>
             <div class="column medium-6">
@@ -1733,7 +1765,7 @@
     </div>
     <!-- / Added    -->
 
-    <div class="section clients">
+    <div id='clients' class="section clients">
         <div class="row column">
             <p class="h1">Клиенты</p>
             <p class="h2">За более чем 15 летнюю историю центра мы обучили помощников и ассистентов таких компаний как:
